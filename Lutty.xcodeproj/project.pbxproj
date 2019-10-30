@@ -3,19 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		933F558A2367615D00D6FEBE /* FilterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F55892367615D00D6FEBE /* FilterList.swift */; };
+		933F558C2368442700D6FEBE /* FilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F558B2368442700D6FEBE /* FilterService.swift */; };
+		933F558E2368446A00D6FEBE /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F558D2368446A00D6FEBE /* Filter.swift */; };
+		933F55922368515600D6FEBE /* MTLContextWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F55912368515600D6FEBE /* MTLContextWrapper.swift */; };
+		933F55962368634B00D6FEBE /* LUTLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F55952368634B00D6FEBE /* LUTLoader.swift */; };
+		933F5598236897D100D6FEBE /* ObservableTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F5597236897D100D6FEBE /* ObservableTexture.swift */; };
+		933F559A2368AC2500D6FEBE /* pretty.lut in Resources */ = {isa = PBXBuildFile; fileRef = 933F55992368AC2500D6FEBE /* pretty.lut */; };
+		933F559C23699D1700D6FEBE /* FilterListEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F559B23699D1700D6FEBE /* FilterListEntry.swift */; };
+		933F55A02369A19300D6FEBE /* bw.lut in Resources */ = {isa = PBXBuildFile; fileRef = 933F559D2369A19200D6FEBE /* bw.lut */; };
+		933F55A12369A19300D6FEBE /* contrast.lut in Resources */ = {isa = PBXBuildFile; fileRef = 933F559E2369A19300D6FEBE /* contrast.lut */; };
+		933F55A22369A19300D6FEBE /* temp.lut in Resources */ = {isa = PBXBuildFile; fileRef = 933F559F2369A19300D6FEBE /* temp.lut */; };
 		93B4A3062360BB3E0047574F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B4A3052360BB3E0047574F /* AppDelegate.swift */; };
 		93B4A3082360BB3E0047574F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B4A3072360BB3E0047574F /* SceneDelegate.swift */; };
 		93B4A30A2360BB3E0047574F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B4A3092360BB3E0047574F /* ContentView.swift */; };
 		93B4A30C2360BB410047574F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B4A30B2360BB410047574F /* Assets.xcassets */; };
 		93B4A30F2360BB410047574F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B4A30E2360BB410047574F /* Preview Assets.xcassets */; };
 		93B4A3122360BB410047574F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B4A3102360BB410047574F /* LaunchScreen.storyboard */; };
+		93B4A31A2360BBF70047574F /* MetalTextureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B4A3192360BBF70047574F /* MetalTextureView.swift */; };
+		C1EF9BB9C36C612BCC6C386D /* Pods_Lutty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C02C7D0FD0AA3F707E49850 /* Pods_Lutty.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		748EE20FC5BDFF069F28C30A /* Pods-Lutty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lutty.debug.xcconfig"; path = "Target Support Files/Pods-Lutty/Pods-Lutty.debug.xcconfig"; sourceTree = "<group>"; };
+		8C02C7D0FD0AA3F707E49850 /* Pods_Lutty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lutty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		933F55892367615D00D6FEBE /* FilterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterList.swift; sourceTree = "<group>"; };
+		933F558B2368442700D6FEBE /* FilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterService.swift; sourceTree = "<group>"; };
+		933F558D2368446A00D6FEBE /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		933F55912368515600D6FEBE /* MTLContextWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTLContextWrapper.swift; sourceTree = "<group>"; };
+		933F55952368634B00D6FEBE /* LUTLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LUTLoader.swift; sourceTree = "<group>"; };
+		933F5597236897D100D6FEBE /* ObservableTexture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableTexture.swift; sourceTree = "<group>"; };
+		933F55992368AC2500D6FEBE /* pretty.lut */ = {isa = PBXFileReference; lastKnownFileType = file; path = pretty.lut; sourceTree = "<group>"; };
+		933F559B23699D1700D6FEBE /* FilterListEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterListEntry.swift; sourceTree = "<group>"; };
+		933F559D2369A19200D6FEBE /* bw.lut */ = {isa = PBXFileReference; lastKnownFileType = file; path = bw.lut; sourceTree = "<group>"; };
+		933F559E2369A19300D6FEBE /* contrast.lut */ = {isa = PBXFileReference; lastKnownFileType = file; path = contrast.lut; sourceTree = "<group>"; };
+		933F559F2369A19300D6FEBE /* temp.lut */ = {isa = PBXFileReference; lastKnownFileType = file; path = temp.lut; sourceTree = "<group>"; };
 		93B4A3022360BB3E0047574F /* Lutty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lutty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B4A3052360BB3E0047574F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93B4A3072360BB3E0047574F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +50,8 @@
 		93B4A30E2360BB410047574F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		93B4A3112360BB410047574F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93B4A3132360BB410047574F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B4A3192360BBF70047574F /* MetalTextureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalTextureView.swift; sourceTree = "<group>"; };
+		CF85AF134E9899048957DDEF /* Pods-Lutty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lutty.release.xcconfig"; path = "Target Support Files/Pods-Lutty/Pods-Lutty.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,85 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1EF9BB9C36C612BCC6C386D /* Pods_Lutty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44E39C8D7C94F654C6E110AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C02C7D0FD0AA3F707E49850 /* Pods_Lutty.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		933F55A32369A78800D6FEBE /* luts */ = {
+			isa = PBXGroup;
+			children = (
+				933F559D2369A19200D6FEBE /* bw.lut */,
+				933F55992368AC2500D6FEBE /* pretty.lut */,
+				933F559E2369A19300D6FEBE /* contrast.lut */,
+				933F559F2369A19300D6FEBE /* temp.lut */,
+			);
+			path = luts;
+			sourceTree = "<group>";
+		};
+		933F55A42369A79200D6FEBE /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				93B4A3052360BB3E0047574F /* AppDelegate.swift */,
+				93B4A3072360BB3E0047574F /* SceneDelegate.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		933F55A52369A7AA00D6FEBE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				933F55952368634B00D6FEBE /* LUTLoader.swift */,
+				933F558B2368442700D6FEBE /* FilterService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		933F55A62369A7B500D6FEBE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				933F55912368515600D6FEBE /* MTLContextWrapper.swift */,
+				933F5597236897D100D6FEBE /* ObservableTexture.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		933F55A72369A7EE00D6FEBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				933F558D2368446A00D6FEBE /* Filter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		933F55A82369A7F500D6FEBE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93B4A3092360BB3E0047574F /* ContentView.swift */,
+				93B4A3192360BBF70047574F /* MetalTextureView.swift */,
+				933F55892367615D00D6FEBE /* FilterList.swift */,
+				933F559B23699D1700D6FEBE /* FilterListEntry.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		93B4A2F92360BB3E0047574F = {
 			isa = PBXGroup;
 			children = (
 				93B4A3042360BB3E0047574F /* Lutty */,
 				93B4A3032360BB3E0047574F /* Products */,
+				BC213D990CE26D79D7F0B51C /* Pods */,
+				44E39C8D7C94F654C6E110AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +152,16 @@
 		93B4A3042360BB3E0047574F /* Lutty */ = {
 			isa = PBXGroup;
 			children = (
-				93B4A3052360BB3E0047574F /* AppDelegate.swift */,
-				93B4A3072360BB3E0047574F /* SceneDelegate.swift */,
-				93B4A3092360BB3E0047574F /* ContentView.swift */,
+				933F55A32369A78800D6FEBE /* luts */,
+				933F55A42369A79200D6FEBE /* Global */,
+				933F55A82369A7F500D6FEBE /* Views */,
+				933F55A72369A7EE00D6FEBE /* Model */,
+				933F55A52369A7AA00D6FEBE /* Services */,
+				933F55A62369A7B500D6FEBE /* Utils */,
 				93B4A30B2360BB410047574F /* Assets.xcassets */,
+				93B4A30D2360BB410047574F /* Preview Content */,
 				93B4A3102360BB410047574F /* LaunchScreen.storyboard */,
 				93B4A3132360BB410047574F /* Info.plist */,
-				93B4A30D2360BB410047574F /* Preview Content */,
 			);
 			path = Lutty;
 			sourceTree = "<group>";
@@ -75,6 +174,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BC213D990CE26D79D7F0B51C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				748EE20FC5BDFF069F28C30A /* Pods-Lutty.debug.xcconfig */,
+				CF85AF134E9899048957DDEF /* Pods-Lutty.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93B4A3162360BB410047574F /* Build configuration list for PBXNativeTarget "Lutty" */;
 			buildPhases = (
+				873DC9BA464AAACF1FE28493 /* [CP] Check Pods Manifest.lock */,
 				93B4A2FE2360BB3E0047574F /* Sources */,
 				93B4A2FF2360BB3E0047574F /* Frameworks */,
 				93B4A3002360BB3E0047574F /* Resources */,
+				3EB5C3A15F3ECB6D39F1D4F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,20 +243,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933F55A02369A19300D6FEBE /* bw.lut in Resources */,
 				93B4A3122360BB410047574F /* LaunchScreen.storyboard in Resources */,
+				933F559A2368AC2500D6FEBE /* pretty.lut in Resources */,
+				933F55A12369A19300D6FEBE /* contrast.lut in Resources */,
 				93B4A30F2360BB410047574F /* Preview Assets.xcassets in Resources */,
+				933F55A22369A19300D6FEBE /* temp.lut in Resources */,
 				93B4A30C2360BB410047574F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3EB5C3A15F3ECB6D39F1D4F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lutty/Pods-Lutty-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lutty/Pods-Lutty-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lutty/Pods-Lutty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		873DC9BA464AAACF1FE28493 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lutty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93B4A2FE2360BB3E0047574F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933F558E2368446A00D6FEBE /* Filter.swift in Sources */,
+				93B4A31A2360BBF70047574F /* MetalTextureView.swift in Sources */,
+				933F558A2367615D00D6FEBE /* FilterList.swift in Sources */,
+				933F55962368634B00D6FEBE /* LUTLoader.swift in Sources */,
 				93B4A3062360BB3E0047574F /* AppDelegate.swift in Sources */,
+				933F558C2368442700D6FEBE /* FilterService.swift in Sources */,
+				933F5598236897D100D6FEBE /* ObservableTexture.swift in Sources */,
+				933F559C23699D1700D6FEBE /* FilterListEntry.swift in Sources */,
+				933F55922368515600D6FEBE /* MTLContextWrapper.swift in Sources */,
 				93B4A3082360BB3E0047574F /* SceneDelegate.swift in Sources */,
 				93B4A30A2360BB3E0047574F /* ContentView.swift in Sources */,
 			);
@@ -282,6 +446,7 @@
 		};
 		93B4A3172360BB410047574F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748EE20FC5BDFF069F28C30A /* Pods-Lutty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +467,7 @@
 		};
 		93B4A3182360BB410047574F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF85AF134E9899048957DDEF /* Pods-Lutty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
