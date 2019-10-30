@@ -49,6 +49,8 @@ struct ContentView: View {
                         Slider(value: intensityBinding)
                     }
                 }
+            }.onAppear {
+                try! self.updateLUT()
             }
             FilterList(filters: self.filters, selectedFilter: selectedFilterBinding)
         }
